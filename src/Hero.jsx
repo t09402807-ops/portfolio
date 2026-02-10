@@ -1,3 +1,5 @@
+import profileImg from './profile.jpg'
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center pt-32 pb-32 px-4 bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-50 relative overflow-hidden" style={{marginLeft: '100px', marginRight: '100px'}}>
@@ -9,7 +11,7 @@ export default function Hero() {
       <div className="text-center max-w-4xl mx-auto relative z-10">
         <div className="mb-16 flex justify-center">
           <div className="w-40 h-40 rounded-full bg-gradient-to-br from-amber-400 via-yellow-400 to-amber-400 p-1 shadow-2xl">
-            <img src="/profile.jpg" alt="Daniel Kabe" className="w-full h-full rounded-full object-cover" />
+            <img src={profileImg} alt="Daniel Kabe" className="w-full h-full rounded-full object-cover" />
           </div>
         </div>
 
